@@ -1,0 +1,65 @@
+/* #xyz{
+    color: #f02727;
+    background-color: aliceblue;
+}
+
+.section-one{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.box{
+    width: 32%;
+    height: 350px;
+    background-color: burlywood;
+}
+
+div{
+    background-color: red;
+}
+
+.box1{
+    background-color: seagreen;
+} */
+
+.main-box{
+    height: auto;
+    border: 3px solid slateblue;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.box{
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-1{
+    order: 1;
+}
+
+.item-6{
+    order: -1;
+}
+body{
+    background:linear-gradient(
+        to right,
+    rgba(204, 204, 204, 0.486),
+    rgba(204, 204, 204, 0.486)
+    ),
+     url("../assets/sky.jpeg") no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
